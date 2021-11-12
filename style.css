@@ -1,0 +1,173 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-image: url(https://static.wikia.nocookie.net/leagueoflegends/images/5/51/02BW026-full.png/revision/latest/scale-to-width-down/1200?cb=20200428082942);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 900px;
+    margin: 0px auto;
+    background-color: white;
+    border-left: 2px blue solid;
+    border-right: 2px red solid;
+    border-top: 1px gold solid;
+    border-bottom: 1px gold solid;
+    position: relative;
+}
+.header{
+    padding: 15px;
+}
+.logo a{
+    background-image: url(cards.png);
+    display: inline-block;
+    width: 250px;
+    height: 100px;
+    text-indent: -999px;
+    background-repeat: no-repeat;
+    position: absolute;
+    margin-top: -5px;
+    left: 650px;
+}
+.header .judul{
+    font-size: 45px;
+    font-family: 'Lobster', cursive;
+}
+div ul li{
+    font-size: 20px;
+    display: inline-block;
+    font-family: 'Lobster', cursive;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+ul li a{
+    text-decoration: none;
+}
+li:first-child a{
+    color: red;
+}
+li:nth-child(2) a{
+    color: gold;
+}
+li:last-child a{
+    color: blue;
+}
+li:first-child a:hover{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: blue;
+    border-radius: 25px;
+    padding: 5px 3px 5px 3px;
+}
+li:nth-child(2) a:hover{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: red;
+    border-radius: 25px;
+    padding: 5px 10px 5px 10px;
+}
+li:last-child a:hover{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: gold;
+    border-radius: 25px;
+    padding: 5px 5px 5px 5px;
+}
+.pictf{
+    height: 350px;
+    width: 900px;
+    background-image: url(https://preview.redd.it/knkmkpkxqjg61.png?width=1215&format=png&auto=webp&s=c57c69aef6ab306e2b260573ce9c345de571beec);
+    background-repeat: no-repeat;
+    background-position-x: -300px;
+    margin-left: -15px;
+    margin-top: 15px;
+    border-top: blue 1px solid;
+    border-bottom: red 1px solid;
+}
+#content h2{
+    font-family: 'Lobster', cursive;
+    margin-top: 5px;
+}
+#content p{
+    margin-top: 10px;
+    text-indent: 10px;
+    font-family: 'Secular One', sans-serif;
+}
+#lore h2{
+    font-family: 'Lobster', cursive;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#lore p{
+    font-family: 'Secular One', sans-serif;
+    text-indent: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#lore a{
+    color: white;
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: salmon;
+    border-radius: 25px;
+    padding: 5px;
+}
+#lore a:hover{
+    background-color: gold;
+}
+#me h2{
+    font-family: 'Lobster', cursive;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#me p{
+    font-family: 'Secular One', sans-serif;
+    margin-top: 10px;
+}
+#me ul li a{
+    color: blue;
+    font-family: 'Lobster', cursive;
+}
+#me ul li a:hover{
+    font-weight: bold;
+    background-color: white;
+    color: blue;
+}
+#me p a{
+    text-decoration: none;
+    color: blue;
+}
+#me p a:hover{
+    font-weight: bold;
+    font-style: italic;
+}
+div .mypic{
+    width: 200px;
+    height: 200px;
+    background-color: salmon;
+    box-shadow: 5px 5px 10px black;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    background-image: url(ilik.jpg);
+    background-size: cover;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.footer p {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Secular One', sans-serif;
+    background-color: black;
+    background-size: 100%;
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-top: 5px;
+    margin-bottom: -15px;
+}
